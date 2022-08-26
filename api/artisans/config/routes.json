@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/artisans",
+      "handler": "artisans.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/artisans/count",
+      "handler": "artisans.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/artisans/:id",
+      "handler": "artisans.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/artisans",
+      "handler": "artisans.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/artisans/:id",
+      "handler": "artisans.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/artisans/:id",
+      "handler": "artisans.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
